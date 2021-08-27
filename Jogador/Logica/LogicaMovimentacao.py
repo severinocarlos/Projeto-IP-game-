@@ -1,4 +1,4 @@
-from NovoSistemaArquitetado.Jogador.Dados import DadosJogador as DJ
+from Jogador.Dados import DadosJogador as DJ
 
 def LogicaMovimentacaoJogador():
     if DJ.JogadorMovendoDireita:
