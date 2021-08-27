@@ -7,4 +7,4 @@ LarguraJanela,AlturaJanela = 700,630
 #Variável que Mantém a Janela Aberta
 JanelaAberta = True
 
-Icone = pg.image.load("Componentes/Janela/Recursos/Icone.png")
+Icone = pg.image.load("Janela/Recursos/Icone.png")

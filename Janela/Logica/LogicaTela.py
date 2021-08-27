@@ -1,21 +1,21 @@
 import pygame as pg
-from NovoSistemaArquitetado.Janela.Dados import DadosJanela as DT
-from NovoSistemaArquitetado.Janela.Dados import DadosTelaInicial as DTI
-from NovoSistemaArquitetado.Mapa.Dados import DadosMapa as DM
-from NovoSistemaArquitetado.Jogador.Dados import DadosJogador as DJ
-from NovoSistemaArquitetado.Inimigo.Dados import DadosInimigo as DI
-from NovoSistemaArquitetado.Colecionaveis.Dados import DadosPokebola as DP1
-from NovoSistemaArquitetado.Colecionaveis.Dados import DadosPokebola2 as DP2
-from NovoSistemaArquitetado.Colecionaveis.Dados import DadosPokebola3 as DP3
-from NovoSistemaArquitetado.Colecionaveis.Dados import DadosPokebola4 as DP4
-from NovoSistemaArquitetado.Colecionaveis.Dados import DadosPokebola5 as DP5
-from NovoSistemaArquitetado.Colecionaveis.Dados import DadosPokemon as DPk
-from NovoSistemaArquitetado.HUD.Dados import DadosPokebolasColetadas as DPC1
-from NovoSistemaArquitetado.HUD.Dados import DadosPokemonsColetados as DPC2
-from NovoSistemaArquitetado.HUD.Dados import DadosRocket as DR
-from NovoSistemaArquitetado.HUD.Dados import DadosContador as DC
-from NovoSistemaArquitetado.Pokebola.Dados import DadosPokebolaArremessavel as DPb
-from NovoSistemaArquitetado.Janela.Dados import DadosTelaFinal as DTF
+from Janela.Dados import DadosJanela as DT
+from Janela.Dados import DadosTelaInicial as DTI
+from Mapa.Dados import DadosMapa as DM
+from Jogador.Dados import DadosJogador as DJ
+from Inimigo.Dados import DadosInimigo as DI
+from Colecionaveis.Dados import DadosPokebola as DP1
+from Colecionaveis.Dados import DadosPokebola2 as DP2
+from Colecionaveis.Dados import DadosPokebola3 as DP3
+from Colecionaveis.Dados import DadosPokebola4 as DP4
+from Colecionaveis.Dados import DadosPokebola5 as DP5
+from Colecionaveis.Dados import DadosPokemon as DPk
+from HUD.Dados import DadosPokebolasColetadas as DPC1
+from HUD.Dados import DadosPokemonsColetados as DPC2
+from HUD.Dados import DadosRocket as DR
+from HUD.Dados import DadosContador as DC
+from Pokebola.Dados import DadosPokebolaArremessavel as DPb
+from Janela.Dados import DadosTelaFinal as DTF
 
 #Criar a janela (fora do loop)
 Janela = pg.display.set_mode([DT.LarguraJanela,DT.AlturaJanela])
