@@ -1,5 +1,5 @@
 import pygame as pg
-from NovoSistemaArquitetado.Componentes.Inimigo.Dados import DadosInimigo as DI
+from NovoSistemaArquitetado.Inimigo.Dados import DadosInimigo as DI
 
 def SpriteInimigoDireita():
     if DI.DireitaInimigo==28:
