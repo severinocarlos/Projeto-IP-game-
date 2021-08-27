@@ -1,11 +1,11 @@
 import random
-from NovoSistemaArquitetado.Componentes.Jogador.Dados import DadosJogador as DJ
-from NovoSistemaArquitetado.Componentes.Colecionaveis.Dados import DadosPokebola as DP
-from NovoSistemaArquitetado.Componentes.Colecionaveis.Dados import DadosPokebola2 as DP2
-from NovoSistemaArquitetado.Componentes.Colecionaveis.Dados import DadosPokebola3 as DP3
-from NovoSistemaArquitetado.Componentes.Colecionaveis.Dados import DadosPokebola4 as DP4
-from NovoSistemaArquitetado.Componentes.Colecionaveis.Dados import DadosPokebola5 as DP5
-from NovoSistemaArquitetado.Componentes.HUD.Dados import DadosPokebolasColetadas as DPC
+from NovoSistemaArquitetado.Jogador.Dados import DadosJogador as DJ
+from NovoSistemaArquitetado.Colecionaveis.Dados import DadosPokebola as DP
+from NovoSistemaArquitetado.Colecionaveis.Dados import DadosPokebola2 as DP2
+from NovoSistemaArquitetado.Colecionaveis.Dados import DadosPokebola3 as DP3
+from NovoSistemaArquitetado.Colecionaveis.Dados import DadosPokebola4 as DP4
+from NovoSistemaArquitetado.Colecionaveis.Dados import DadosPokebola5 as DP5
+from NovoSistemaArquitetado.HUD.Dados import DadosPokebolasColetadas as DPC
 
 def ColetarPokebola():
     if DJ.XJogador == DP.XPokebola and DJ.YJogador == DP.YPokebola:
