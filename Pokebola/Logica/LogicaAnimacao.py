@@ -1,50 +1,50 @@
 import pygame as pg
-from NovoSistemaArquitetado.Pokebola.Dados import DadosPokebolaArremessavel as DP1
+from Pokebola.Dados import DadosPokebolaArremessavel as DP1
 
 def SpritePokebolaDireita():
     if DP1.DireitaPokebola==20:
         DP1.DireitaPokebola = 0
     if DP1.DireitaPokebola in range (0,4):
-        return(pg.image.load('Componentes/Pokebola/Recursos/PokebolaDireita1.png'))
+        return(pg.image.load('Pokebola/Recursos/PokebolaDireita1.png'))
     if DP1.DireitaPokebola in range (4,10):
-        return(pg.image.load('Componentes/Pokebola/Recursos/PokebolaDireita2.png'))
+        return(pg.image.load('Pokebola/Recursos/PokebolaDireita2.png'))
     if DP1.DireitaPokebola in range (10,14):
-        return(pg.image.load('Componentes/Pokebola/Recursos/PokebolaDireita3.png'))
+        return(pg.image.load('Pokebola/Recursos/PokebolaDireita3.png'))
     if DP1.DireitaPokebola in range (14,20):
-        return (pg.image.load('Componentes/Pokebola/Recursos/PokebolaDireita4.png'))
+        return (pg.image.load('Pokebola/Recursos/PokebolaDireita4.png'))
 def SpritePokebolaEsquerda():
     if DP1.EsquerdaPokebola == 20:
         DP1.EsquerdaPokebola = 0
     if DP1.EsquerdaPokebola in range(0, 4):
-        return (pg.image.load('Componentes/Pokebola/Recursos/PokebolaEsquerda1.png'))
+        return (pg.image.load('Pokebola/Recursos/PokebolaEsquerda1.png'))
     if DP1.EsquerdaPokebola in range(4, 10):
-        return (pg.image.load('Componentes/Pokebola/Recursos/PokebolaEsquerda2.png'))
+        return (pg.image.load('Pokebola/Recursos/PokebolaEsquerda2.png'))
     if DP1.EsquerdaPokebola in range(10, 14):
-        return (pg.image.load('Componentes/Pokebola/Recursos/PokebolaEsquerda3.png'))
+        return (pg.image.load('Pokebola/Recursos/PokebolaEsquerda3.png'))
     if DP1.EsquerdaPokebola in range(14, 20):
-        return (pg.image.load('Componentes/Pokebola/Recursos/PokebolaEsquerda4.png'))
+        return (pg.image.load('Pokebola/Recursos/PokebolaEsquerda4.png'))
 def SpritePokebolaFrente():
     if DP1.AbaixoPokebola == 20:
         DP1.AbaixoPokebola = 0
     if DP1.AbaixoPokebola in range(0, 4):
-        return (pg.image.load('Componentes/Pokebola/Recursos/PokebolaFrente1.png'))
+        return (pg.image.load('Pokebola/Recursos/PokebolaFrente1.png'))
     if DP1.AbaixoPokebola in range(4, 10):
-        return (pg.image.load('Componentes/Pokebola/Recursos/PokebolaFrente2.png'))
+        return (pg.image.load('Pokebola/Recursos/PokebolaFrente2.png'))
     if DP1.AbaixoPokebola in range(10, 14):
-        return (pg.image.load('Componentes/Pokebola/Recursos/PokebolaFrente3.png'))
+        return (pg.image.load('Pokebola/Recursos/PokebolaFrente3.png'))
     if DP1.AbaixoPokebola in range(14, 20):
-        return (pg.image.load('Componentes/Pokebola/Recursos/PokebolaFrente4.png'))
+        return (pg.image.load('Pokebola/Recursos/PokebolaFrente4.png'))
 def SpritePokebolaCostas():
     if DP1.AcimaPokebola == 20:
         DP1.AcimaPokebola = 0
     if DP1.AcimaPokebola in range(0, 4):
-        return (pg.image.load('Componentes/Pokebola/Recursos/PokebolaCostas1.png'))
+        return (pg.image.load('Pokebola/Recursos/PokebolaCostas1.png'))
     if DP1.AcimaPokebola in range(4, 10):
-        return (pg.image.load('Componentes/Pokebola/Recursos/PokebolaCostas2.png'))
+        return (pg.image.load('Pokebola/Recursos/PokebolaCostas2.png'))
     if DP1.AcimaPokebola in range(10, 14):
-        return (pg.image.load('Componentes/Pokebola/Recursos/PokebolaCostas3.png'))
+        return (pg.image.load('Pokebola/Recursos/PokebolaCostas3.png'))
     if DP1.AcimaPokebola in range(14, 20):
-        return (pg.image.load('Componentes/Pokebola/Recursos/PokebolaCostas4.png'))
+        return (pg.image.load('Pokebola/Recursos/PokebolaCostas4.png'))
 def LogicaAnimacaoPokebola():
     if DP1.PokebolaMovendoDireita:
         DP1.DireitaPokebola += 1

@@ -1,4 +1,4 @@
-from NovoSistemaArquitetado.Pokebola.Dados import DadosPokebolaArremessavel as DP1
+from Pokebola.Dados import DadosPokebolaArremessavel as DP1
 
 def LogicaMovimentacaoPokebola():
     if DP1.PokebolaMovendoDireita:

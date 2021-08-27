@@ -1,8 +1,8 @@
 import pygame as pg
-from NovoSistemaArquitetado.Pokebola.Logica import LogicaInputs as LI
-from NovoSistemaArquitetado.Pokebola.Logica import LogicaMovimentacao as LM
-from NovoSistemaArquitetado.Pokebola.Logica import LogicaAnimacao as LA
-from NovoSistemaArquitetado.Pokebola.Dados import DadosPokebolaArremessavel as DP1
+from Pokebola.Logica import LogicaInputs as LI
+from Pokebola.Logica import LogicaMovimentacao as LM
+from Pokebola.Logica import LogicaAnimacao as LA
+from Pokebola.Dados import DadosPokebolaArremessavel as DP1
 
 def AtualizarPokebolaArremessavel():
     if DP1.XPokebola >= 700 or DP1.XPokebola<=-35 or DP1.YPokebola>=630 or DP1.YPokebola<=-35:

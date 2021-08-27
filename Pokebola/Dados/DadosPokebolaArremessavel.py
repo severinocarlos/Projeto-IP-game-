@@ -5,7 +5,7 @@ XPokebola,YPokebola = 315,280
 
 GrupoPokebola = pg.sprite.Group()
 Pokebola = pg.sprite.Sprite(GrupoPokebola)
-Pokebola.image = pg.image.load('Componentes/Pokebola/Recursos/PokebolaFrente1.png')
+Pokebola.image = pg.image.load('Pokebola/Recursos/PokebolaFrente1.png')
 Pokebola.rect = pg.Rect(XPokebola,YPokebola,LarguraPokebola,AlturaPokebola)
 
 #Situação em Relação à Animação
