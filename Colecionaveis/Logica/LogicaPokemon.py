@@ -1,10 +1,10 @@
 import random
 #from NovoSistemaArquitetado.Componentes.Jogador.Dados import DadosJogador as DJ
-from NovoSistemaArquitetado.Componentes.Pokebola.Dados import DadosPokebolaArremessavel as DP1
-from NovoSistemaArquitetado.Componentes.Colecionaveis.Dados import DadosPokemon as DP
-from NovoSistemaArquitetado.Componentes.HUD.Dados import DadosPokemonsColetados as DPC
-from NovoSistemaArquitetado.Componentes.Inimigo.Dados import DadosInimigo as DI
-from NovoSistemaArquitetado.Componentes.HUD.Dados import DadosRocket as DR
+from NovoSistemaArquitetado.Pokebola.Dados import DadosPokebolaArremessavel as DP1
+from NovoSistemaArquitetado.Dados import DadosPokemon as DP
+from NovoSistemaArquitetado.HUD.Dados import DadosPokemonsColetados as DPC
+from NovoSistemaArquitetado.Inimigo.Dados import DadosInimigo as DI
+from NovoSistemaArquitetado.HUD.Dados import DadosRocket as DR
 
 def ColetarPokemon():
     if DP1.XPokebola == DP.XPokemon and DP1.YPokebola == DP.YPokemon and DP1.Arremessada:
