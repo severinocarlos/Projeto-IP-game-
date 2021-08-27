@@ -1,5 +1,5 @@
-from NovoSistemaArquitetado.Inimigo.Dados import DadosInimigo as DI
-from NovoSistemaArquitetado.Colecionaveis.Dados import DadosPokemon as DP
+from Inimigo.Dados import DadosInimigo as DI
+from Colecionaveis.Dados import DadosPokemon as DP
 
 def LogicaOrientacaoInimigo():
     VetorX = DP.XPokemon - DI.XInimigo

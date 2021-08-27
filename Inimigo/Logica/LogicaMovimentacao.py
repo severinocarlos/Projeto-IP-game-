@@ -1,4 +1,4 @@
-from NovoSistemaArquitetado.Inimigo.Dados import DadosInimigo as DI
+from Inimigo.Dados import DadosInimigo as DI
 
 def LogicaMovimentacaoInimigo():
     if DI.InimigoMovendoDireita:

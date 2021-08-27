@@ -1,8 +1,8 @@
 import pygame as pg
-from NovoSistemaArquitetado.Inimigo.Logica import LogicaOrientacao as LO
-from NovoSistemaArquitetado.Inimigo.Logica import LogicaMovimentacao as LM
-from NovoSistemaArquitetado.Inimigo.Logica import LogicaAnimacao as LA
-from NovoSistemaArquitetado.Inimigo.Dados import DadosInimigo as DI
+from Inimigo.Logica import LogicaOrientacao as LO
+from Inimigo.Logica import LogicaMovimentacao as LM
+from Inimigo.Logica import LogicaAnimacao as LA
+from Inimigo.Dados import DadosInimigo as DI
 
 def AtualizarInimigo():
     if DI.QuantidadePassos == 14:
