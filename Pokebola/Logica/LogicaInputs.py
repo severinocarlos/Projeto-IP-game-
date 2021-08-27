@@ -1,7 +1,7 @@
 import pygame as pg
-from NovoSistemaArquitetado.Componentes.Pokebola.Dados import DadosPokebolaArremessavel as DP1
-from NovoSistemaArquitetado.Componentes.Jogador.Dados import DadosJogador as DJ
-from NovoSistemaArquitetado.Componentes.HUD.Dados import DadosPokebolasColetadas as DPC
+from NovoSistemaArquitetado.Pokebola.Dados import DadosPokebolaArremessavel as DP1
+from NovoSistemaArquitetado.Jogador.Dados import DadosJogador as DJ
+from NovoSistemaArquitetado.HUD.Dados import DadosPokebolasColetadas as DPC
 
 def LogicaInputsPokebola():
     teclas = pg.key.get_pressed()
