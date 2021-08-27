@@ -2,7 +2,7 @@ import pygame as pg
 pg.init()
 
 # --> INICIALIZAÇÃO DA TELA /NOME DA JANELA(GAME)/ CARREGAR A IMAGEM DO map/ SETAR O ICONE DO JOGO NA ABA
-IconePokebola = pg.image.load("Componentes/HUD/Recursos/Pokebola.png")
+IconePokebola = pg.image.load("HUD/Recursos/Pokebola.png")
 IconePokebola = pg.transform.smoothscale(IconePokebola, (30, 30))
 
 # --> PONTUAÇÃO DO JOGO

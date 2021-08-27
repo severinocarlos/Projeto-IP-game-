@@ -1,8 +1,8 @@
-from NovoSistemaArquitetado.Componentes.HUD.Dados import DadosContador as DC
-from NovoSistemaArquitetado.Componentes.HUD.Dados import DadosPokemonsColetados as DPC
-from NovoSistemaArquitetado.Componentes.HUD.Dados import DadosRocket as DR
-from NovoSistemaArquitetado.Componentes.Janela.Dados import DadosTelaFinal as DTF
-from NovoSistemaArquitetado import RodarJogo as RJ
+from HUD.Dados import DadosContador as DC
+from HUD.Dados import DadosPokemonsColetados as DPC
+from HUD.Dados import DadosRocket as DR
+from Janela.Dados import DadosTelaFinal as DTF
+import RodarJogo as RJ
 
 def Contador(TempoInicio,TempoAposExecucao):
     DC.TempoCorrido += TempoAposExecucao-TempoInicio

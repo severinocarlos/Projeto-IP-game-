@@ -2,7 +2,7 @@ import pygame as pg
 pg.init()
 
 # --> INICIALIZAÇÃO DA TELA /NOME DA JANELA(GAME)/ CARREGAR A IMAGEM DO map/ SETAR O ICONE DO JOGO NA ABA
-IconeRocket = pg.image.load("Componentes/HUD/Recursos/Rocket.png")
+IconeRocket = pg.image.load("HUD/Recursos/Rocket.png")
 IconeRocket = pg.transform.smoothscale(IconeRocket, (30, 30))
 
 # --> PONTUAÇÃO DO JOGO
