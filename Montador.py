@@ -1,12 +1,12 @@
 import pygame as pg
 import time
-from NovoSistemaArquitetado.Janela.Logica import LogicaTela as LT
-from NovoSistemaArquitetado.Jogador.Logica import AtualizarJogador as AJ
-from NovoSistemaArquitetado.Inimigo.Logica import AtualizarInimigo as AI
-from NovoSistemaArquitetado.HUD.Logica import LogicaContador as LC
-from NovoSistemaArquitetado.Colecionaveis.Logica import AtualizarPokebola as AP1
-from NovoSistemaArquitetado.Colecionaveis.Logica import AtualizarPokemon as AP2
-from NovoSistemaArquitetado.Pokebola.Logica import AtualizarPokebolaArremessavel as APb
+from Janela.Logica import LogicaTela as LT
+from Jogador.Logica import AtualizarJogador as AJ
+from Inimigo.Logica import AtualizarInimigo as AI
+from HUD.Logica import LogicaContador as LC
+from Colecionaveis.Logica import AtualizarPokebola as AP1
+from Colecionaveis.Logica import AtualizarPokemon as AP2
+from Pokebola.Logica import AtualizarPokebolaArremessavel as APb
 
 def AtualizarJanela():
     LT.CarregarMapa()
@@ -20,7 +20,7 @@ def AtualizarJanela():
 
 def Montar():
     TempoInicio = time.time()
-    from NovoSistemaArquitetado.Sons.Logica import LogicaMusica
+    #from NovoSistemaArquitetado.Sons.Logica import LogicaMusica
     AJ.AtualizarJogador()
     AI.AtualizarInimigo()
     AP1.AtualizarPokebola()
