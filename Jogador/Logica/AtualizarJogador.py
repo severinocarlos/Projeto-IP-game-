@@ -1,8 +1,8 @@
 import pygame as pg
-from NovoSistemaArquitetado.Componentes.Jogador.Logica import LogicaInputs as LI
-from NovoSistemaArquitetado.Componentes.Jogador.Logica import LogicaMovimentacao as LM
-from NovoSistemaArquitetado.Componentes.Jogador.Logica import LogicaAnimacao as LA
-from NovoSistemaArquitetado.Componentes.Jogador.Dados import DadosJogador as DJ
+from NovoSistemaArquitetado.Jogador.Logica import LogicaInputs as LI
+from NovoSistemaArquitetado.Jogador.Logica import LogicaMovimentacao as LM
+from NovoSistemaArquitetado.Jogador.Logica import LogicaAnimacao as LA
+from NovoSistemaArquitetado.Jogador.Dados import DadosJogador as DJ
 
 def AtualizarJogador():
     if DJ.QuantidadePassos == 10:
