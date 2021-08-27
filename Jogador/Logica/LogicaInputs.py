@@ -1,6 +1,6 @@
 import pygame as pg
-from NovoSistemaArquitetado.Componentes.Janela.Dados import DadosJanela as DT
-from NovoSistemaArquitetado.Componentes.Jogador.Dados import DadosJogador as DJ
+from NovoSistemaArquitetado.Janela.Dados import DadosJanela as DT
+from NovoSistemaArquitetado.Jogador.Dados import DadosJogador as DJ
 
 def LogicaInputsJogador():
     teclas = pg.key.get_pressed()
