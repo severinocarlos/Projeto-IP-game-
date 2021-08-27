@@ -1,5 +1,5 @@
 import pygame as pg
-from NovoSistemaArquitetado.Componentes.Jogador.Dados import DadosJogador as DJ
+from NovoSistemaArquitetado.Jogador.Dados import DadosJogador as DJ
 
 def SpriteJogadorDireita():
     if DJ.DireitaJogador==20:
