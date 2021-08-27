@@ -1,9 +1,9 @@
 import pygame as pg
 pg.init()
 
-from NovoSistemaArquitetado.Componentes.Janela.Dados import DadosJanela as DT
+from NovoSistemaArquitetado.Janela.Dados import DadosJanela as DT
 from NovoSistemaArquitetado import Montador as M
-from NovoSistemaArquitetado.Componentes.Janela.Dados import DadosTelaFinal as DTF
+from NovoSistemaArquitetado.Janela.Dados import DadosTelaFinal as DTF
 
 StartGame = False
 
