@@ -1,10 +1,10 @@
 import pygame as pg
-from NovoSistemaArquitetado.Colecionaveis.Logica import LogicaPokebola as LP
-from NovoSistemaArquitetado.Colecionaveis.Dados import DadosPokebola as DP
-from NovoSistemaArquitetado.Colecionaveis.Dados import DadosPokebola2 as DP2
-from NovoSistemaArquitetado.Colecionaveis.Dados import DadosPokebola3 as DP3
-from NovoSistemaArquitetado.Colecionaveis.Dados import DadosPokebola4 as DP4
-from NovoSistemaArquitetado.Colecionaveis.Dados import DadosPokebola5 as DP5
+from Colecionaveis.Logica import LogicaPokebola as LP
+from Colecionaveis.Dados import DadosPokebola as DP
+from Colecionaveis.Dados import DadosPokebola2 as DP2
+from Colecionaveis.Dados import DadosPokebola3 as DP3
+from Colecionaveis.Dados import DadosPokebola4 as DP4
+from Colecionaveis.Dados import DadosPokebola5 as DP5
 def AtualizarPokebola():
     LP.ColetarPokebola()
     DP.Pokebola.rect = pg.Rect(DP.XPokebola,DP.YPokebola,DP.LarguraPokebola,DP.AlturaPokebola)
