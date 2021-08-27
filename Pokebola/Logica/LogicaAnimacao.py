@@ -1,5 +1,5 @@
 import pygame as pg
-from NovoSistemaArquitetado.Componentes.Pokebola.Dados import DadosPokebolaArremessavel as DP1
+from NovoSistemaArquitetado.Pokebola.Dados import DadosPokebolaArremessavel as DP1
 
 def SpritePokebolaDireita():
     if DP1.DireitaPokebola==20:
