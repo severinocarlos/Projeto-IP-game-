@@ -1,4 +1,4 @@
-OBS: Game só roda no pycharm
+
 Instalação:
 1) Instalar o Python a partir de : https://www.python.org/
 2) Instalar o Pycharm a partir de: https://www.jetbrains.com/pycharm/
